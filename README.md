@@ -10,7 +10,7 @@ After launching the ubuntu virtual machine the following command is run:
 
 Below is the output of the command above
 
-!<img width="476" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/1162f87c-811b-4454-b361-d6b32af9d0d3">
+<img width="476" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/1162f87c-811b-4454-b361-d6b32af9d0d3">
 
 #### pwd Command is used to show the path of the current working directory
 
@@ -18,7 +18,7 @@ Below is the output of the command above
 
 The output of the command above is shown below:
 
-![image](https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/304f471a-65a2-49e7-bd84-2ce79482c0b7)
+[image](https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/304f471a-65a2-49e7-bd84-2ce79482c0b7)
 
 #### cd command is used to navigate through files and directory.
 
@@ -85,27 +85,50 @@ The command below is used to move inside_Folder from Documents directory to DevO
 
 **`mv inside_folder /home/vboxuser/DevOps_Folder`**
 
-!<img width="760" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/e79181b2-0943-41e7-b28d-3b65374f4175">
+<img width="760" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/e79181b2-0943-41e7-b28d-3b65374f4175">
 
 The commad **`mv file1.txt file10.txt`** is used to rename file1.txt. The output is shown below.
 
-!<img width="524" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/242ea888-c89b-4e51-8716-5b23a34aac17">
+<img width="524" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/242ea888-c89b-4e51-8716-5b23a34aac17">
 
 **`mkdir Music`** command was used to create a new directory named Music. The output is shown below
 
-!<img width="409" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/3158f213-1840-46f1-92b7-150a85a77369">
+<img width="409" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/3158f213-1840-46f1-92b7-150a85a77369">
 
 **`mkdir Music/Song`** command was used to create a new directory named Song inside Music direcotry. The output is shown below
 
-!<img width="439" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/fa592c0f-336c-48f1-85c4-4f0500d279fd">
+<img width="439" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/fa592c0f-336c-48f1-85c4-4f0500d279fd">
 
 **`rmdir -p Music/Song`** command was used to delete the Music/Song directory. rmdir is used to permanentlt delete empty directory. The output is shown below
 
-!<img width="694" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/07a1832f-7079-42a6-8644-069eb5a4ab23">
+<img width="694" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/07a1832f-7079-42a6-8644-069eb5a4ab23">
 
 **`rm file1.txt`** and **`rm file2.txt file3.txt file4.txt`** commands are used to remove a single file and multiple files. The ouput is shown below
 
-!<img width="536" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/f6bb8a05-9584-43a0-ab3d-f2b6f8221932">
+<img width="536" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/f6bb8a05-9584-43a0-ab3d-f2b6f8221932">
+
+**`touch file6.txt`** command wa used to create an empty file named file6. The output is shown below.
+
+<img width="448" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/bd361fc2-356b-4ec0-9050-4b266e600790">
+
+**`locate -i school*note`** command is used to seacrh the database for any file that contain the school or note, the flag -i is used so that the search will not be case sensitive. The output is hown below
 
 
 
+**`find /home -name DevOps`** command was used to find a file named DevOps in the home directory. The output is shown below
+
+<img width="376" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/7eeb00ba-87ec-4f40-a1a4-183906dc2394">
+
+**`grep note Documents/file6.txt`** command was used to find a word by searching through all the text in a specific file. grep is global regular expression. The output is shown below.
+
+<img width="474" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/534bf19a-cb08-4236-9fde-7da34eceefc1">
+
+
+**`df -h`** command was used to report system disk sapce usage. The output is shown below.
+
+<img width="542" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/6e87fa91-dce3-4bc1-8544-229b6dce9916">
+
+
+**`du /home/vboxuser/Documents`** command was used to check how nuch space Documents directory takes up.
+
+<img width="399" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/6acadaef-b643-4e40-8cb0-adf3fa44f8a3">
