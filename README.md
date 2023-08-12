@@ -75,6 +75,37 @@ The command **`cp file1.txt file2.txt`** was used to copy the content of file1 t
 !<img width="458" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/bb530657-db39-443f-810a-aec0f7f0167c">
 
 
-The command **`cp -R /home/vboxuser/DevOps  /home/vboxuser/Documents`** was used to copy the entire content of DevOps directory to the document directory. The output is shown below
+The command **`cp -R /home/vboxuser/DevOps  /home/vboxuser/Documents`** was used to copy the entire content of DevOps directory to the Documents directory. The output is shown below
 
 !<img width="683" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/74f68238-8306-4971-a834-3d50e49cad7b">
+
+#### mv command is used to move file and directories. it does not produce output on the terminal.
+
+The command below is used to move inside_Folder from Documents directory to DevOps_Folder directory.
+
+**`mv inside_folder /home/vboxuser/DevOps_Folder`**
+
+!<img width="760" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/e79181b2-0943-41e7-b28d-3b65374f4175">
+
+The commad **`mv file1.txt file10.txt`** is used to rename file1.txt. The output is shown below.
+
+!<img width="524" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/242ea888-c89b-4e51-8716-5b23a34aac17">
+
+**`mkdir Music`** command was used to create a new directory named Music. The output is shown below
+
+!<img width="409" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/3158f213-1840-46f1-92b7-150a85a77369">
+
+**`mkdir Music/Song`** command was used to create a new directory named Song inside Music direcotry. The output is shown below
+
+!<img width="439" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/fa592c0f-336c-48f1-85c4-4f0500d279fd">
+
+**`rmdir -p Music/Song`** command was used to delete the Music/Song directory. rmdir is used to permanentlt delete empty directory. The output is shown below
+
+!<img width="694" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/07a1832f-7079-42a6-8644-069eb5a4ab23">
+
+**`rm file1.txt`** and **`rm file2.txt file3.txt file4.txt`** commands are used to remove a single file and multiple files. The ouput is shown below
+
+!<img width="536" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/f6bb8a05-9584-43a0-ab3d-f2b6f8221932">
+
+
+
