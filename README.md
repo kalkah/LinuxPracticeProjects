@@ -26,25 +26,25 @@ The command below is used to compltely switch to a new directory
 
 **`cd DevOps_Folder`**
 
-!<img width="459" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/727958e8-ac7b-4c58-9286-2280aeac069e">
+<img width="459" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/727958e8-ac7b-4c58-9286-2280aeac069e">
 
 The command below is used to move one directory up from the current directory
 
 **`cd ..`**
 
-!<img width="320" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/be709402-1b77-4b56-9779-a598238ad790">
+<img width="320" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/be709402-1b77-4b56-9779-a598238ad790">
 
 #### ls command is used to list files and directories within a system. An output of ls command is shown below
 
 **`ls`**
 
-!<img width="443" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/4f8fa017-4432-4526-a3a3-5f604c416bb9">
+<img width="443" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/4f8fa017-4432-4526-a3a3-5f604c416bb9">
 
 The command below shows other directories content
 
 **`ls DevOps_Folder`**
 
-!<img width="307" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/ebbdaf7e-ace2-4cd9-8d1c-53f881a348ef">
+<img width="307" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/ebbdaf7e-ace2-4cd9-8d1c-53f881a348ef">
 
 Different flags can be added to the ls command, some examples are shown below
 
@@ -54,30 +54,30 @@ Different flags can be added to the ls command, some examples are shown below
 
 **`ls -1h`**  show the files sizes
 
-!<img width="916" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/7d75268c-1e46-4f85-acc3-cdfb708b941b">
+<img width="916" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/7d75268c-1e46-4f85-acc3-cdfb708b941b">
 
 #### cat command is used to combines and write file content to standard output
 
 The output of **`cat DevOps`** is hown below
 
-!<img width="395" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/9961c091-4503-4d50-a2ac-3821202a0ccd">
+<img width="395" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/9961c091-4503-4d50-a2ac-3821202a0ccd">
 
 **`cp`** command was used to copy files and their content. A sample output is shown below
 
-!<img width="564" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/45b3d040-61d0-4846-a8c9-7a0b2de73f59">
+<img width="564" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/45b3d040-61d0-4846-a8c9-7a0b2de73f59">
 
 The command **`cp file1.txt file2.txt file 3.txt /home/vboxuser/Documents`** was used to copy several files from a direcotry to another directory. The output is shown below
 
-!<img width="756" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/50d821f7-1d7a-4085-a2d2-76581114969d">
+<img width="756" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/50d821f7-1d7a-4085-a2d2-76581114969d">
 
 The command **`cp file1.txt file2.txt`** was used to copy the content of file1 to file3. The output is shown below
 
-!<img width="458" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/bb530657-db39-443f-810a-aec0f7f0167c">
+<img width="458" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/bb530657-db39-443f-810a-aec0f7f0167c">
 
 
 The command **`cp -R /home/vboxuser/DevOps  /home/vboxuser/Documents`** was used to copy the entire content of DevOps directory to the Documents directory. The output is shown below
 
-!<img width="683" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/74f68238-8306-4971-a834-3d50e49cad7b">
+<img width="683" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/74f68238-8306-4971-a834-3d50e49cad7b">
 
 #### mv command is used to move file and directories. it does not produce output on the terminal.
 
@@ -132,3 +132,44 @@ The commad **`mv file1.txt file10.txt`** is used to rename file1.txt. The output
 **`du /home/vboxuser/Documents`** command was used to check how nuch space Documents directory takes up.
 
 <img width="399" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/6acadaef-b643-4e40-8cb0-adf3fa44f8a3">
+
+**`head DevOps`** command shows the first 10 lines of DevOps file.
+
+<img width="496" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/15653081-01ae-4421-863a-35e95c9dbeb9">
+
+**`tail -n DevOps`** shows the last ten lines of DevOps file. It allows user to check whether the file has new data or error message
+
+<img width="676" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/d86f9163-0551-4a47-8750-474667d4134f">
+
+**`diff DevOps DevOps2`** command was used to compare content of 2 files line by line and display the part that do not match. It can be used to alter a command instead of rewriting the entire source code.
+
+<img width="734" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/cc5f1a3b-e62a-4a92-9d66-aa6618e003ea">
+
+**`tar -cvf DevOps2 /home/vboxuser`** was used to archive /home/vboxuser directory into tar file named DevOps2. the cvf flag stand for c - create a new archive, v - verbose, show the update on the screen f - file name. The output is long, part of the output is shown below.
+
+<img width="500" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/82d6d7dc-6126-4a92-b37f-89af2bca38cb">
+
+
+### FILE PERMISSION AND OWNERSHIP
+
+**`chmod 777 DevOps2`** command was used to allow the users to have read, write and execute permission on the file. There are three user in Linux - Owner, group members and others.rwxrwxrwx numeric value is 777 
+
+<img width="498" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/c78ac380-c9d0-4720-a97d-7d0f6e7dd305">
+
+**`chown linuxuser2 file10.txt`** command was used to make linuxuser2 the owner of file10.txt.  
+
+<img width="354" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/3b8068d6-51b2-4aeb-9c18-889472c69bff">
+
+Jobs command is used to list the jobs that you are running in the background and in the foreground. The prompt returned with no information because no jobs are present
+
+<img width="275" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/a2fde27e-d50d-4f8f-845d-0ddd6469c2b2">
+
+**`kill [signal_option] PID`** command is usually used to terminate an unresponsive program manually. The process identification (PID) must be known To kill a program. 
+
+There are 64 signal options, SIGTERM and SIGKIll are the two most commonly used. SIGTERM is the default if signal option was not specified when entering the **kill** command. SIGTERM request a program to stop running and gives it sometime to save all its progress.
+SIGKILL forces the program to stop and all unsaved progress will be lost.
+
+**`ps ux`** command shows the process identification number.
+
+
+
