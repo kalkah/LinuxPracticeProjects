@@ -18,7 +18,7 @@ Below is the output of the command above
 
 The output of the command above is shown below:
 
-[image](https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/304f471a-65a2-49e7-bd84-2ce79482c0b7)
+<img width="273" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/3756f46b-7e83-41e6-a9a8-9daa8836c89b">
 
 #### cd command is used to navigate through files and directory.
 
@@ -170,6 +170,60 @@ There are 64 signal options, SIGTERM and SIGKIll are the two most commonly used.
 SIGKILL forces the program to stop and all unsaved progress will be lost.
 
 **`ps ux`** command shows the process identification number.
+
+**ping** command is used to check whether a network or a server is reachable.
+
+**`ping google.com`** 
+
+<img width="649" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/d576f7f3-44ea-4b07-a3b2-943e819abfaa">
+
+**`wget`** command let you download files from the internet.
+
+**`wget https://wordpress.org/latest.zip`**
+
+<img width="779" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/acfe4c95-7f9b-4c6e-b8f5-6983b325d2a4">
+
+**`umame`** command provide detailed information about the linux system and hardware. flag -a print all the system information. Flag -s prints the kernel name. Flag -n print the system's node hostname
+
+**`umame -a`**
+
+**`umame -s`**
+
+**`umame -n`**
+
+<img width="794" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/760813ea-a246-4f0a-b7bf-a69fb8a9a5f4">
+
+**`top`** command display all the running processes and dynamic real-time view of the current system. It provide resource utilisation from CPU to memory usage.
+
+<img width="611" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/2b62d1a3-6fc9-4dcd-a245-698023a0fe86">
+<img width="874" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/0c2e0efa-1646-4e16-bdce-5fd57f65e276">
+
+**`history`** command list up to 500 previously executed command, it allow us to use the commands without re-entering. sudo priviledge is require to to execute this command. The output is long, a snippet of the output is shown below.
+
+<img width="509" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/58dd7ef9-4157-46df-8e5d-ac17fc7e45a8">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
