@@ -267,3 +267,28 @@ Nano is a user-friendly, simple and WYSIWYG(What You See Is What You Get) text e
 vi uses two operating modes to work – insert and command. insert is used to edit and create a text file. On the other hand, the command performs operations, such as saving, opening, copying, and pasting a file.
 
 **`vi new_filename`**
+
+<img width="796" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/d374656e-40ba-47af-b940-9a82fa66cc7a">
+
+Alias allows you to create a shortcut with the same functionality as a command, file name, or text. When executed, it instructs the shell to replace one string with another.
+
+**`alias k=’kill’`** command  make k the alias for the kill command
+
+The unalias command deletes an existing alias. 
+
+**`unalias k`** 
+
+<img width="304" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/6b3de65a-57a7-4926-96f6-fe0707b6092f">
+
+The switch user or su command allows you to run a program as a different user. It changes the administrative account in the current log-in session.
+When executed without any option or argument, the su command runs through root privileges.
+
+<img width="271" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/f79a7a12-3d11-425f-9061-e7e62b0d92ef">
+
+The htop command is an interactive program that monitors system resources and server processes in real time.
+
+<img width="389" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/1bac6be7-a64d-4b36-8ff2-c525665a9ae0">
+
+The process status or ps command produces a snapshot of all running processes in your system. The static results are taken from the virtual files in the /proc file system.
+
+<img width="326" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/0f04f610-8625-4a06-abb6-9cdb20c1bfe3">
