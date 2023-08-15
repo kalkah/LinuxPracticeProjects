@@ -4,7 +4,7 @@
 
 ### FILE MANIPULATION
 
-After launching the ubuntu virtual machine the following command is run:
+After launching the ubuntu virtual machine the following command was run:
 
 **`sudo apt upgrade`**
 
