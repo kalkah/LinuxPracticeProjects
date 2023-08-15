@@ -202,28 +202,68 @@ SIGKILL forces the program to stop and all unsaved progress will be lost.
 
 <img width="509" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/58dd7ef9-4157-46df-8e5d-ac17fc7e45a8">
 
+**`man [command name]`** command provide a user manual of any commands or utilities that is run in the terminal. The command below show the manual for the ls command.
 
+**`man ls`**
 
+<img width="919" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/d98f56a9-9b46-4fb5-a716-6bf247171c7c">
 
+The command below shows the section 8 of the sudo command manual
 
+**`man 8 sudo`**
 
+<img width="922" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/3ba82d61-746d-4b2b-a684-35f48e3b7d2e">
 
+**`echo [option] [string]`** command is used to display a line of text or string using the standard output.
 
+**`echo Hurray, this is my first website`**
 
+<img width="462" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/29bbd298-ed93-4dcd-9ccb-ecefc59eb2ff">
 
+zip command is used to compress files into a ZIP file and unzip command extracts the zipped file from an archive.
 
+**`zip DevOps.zip DevOps`**
 
+**`unzip DevOps.zip`**
 
+<img width="926" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/6c7d03c7-4810-4a36-b3b0-8c5c62fe8752">
 
+**`hostname`** command display the system's hostname. The -i flag display the ip address of the machine
 
+**`hostname`**
 
+**`hostname -i`**
 
+<img width="290" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/1610d89d-9afb-4bc7-a047-dd991559e387">
 
+useradd command was used to create a new account called kalkah, passwd was used to add a password. userdel delete a user account.
 
+**`sudo useradd kalkah`**
 
+**`sudo passwd kalkah`**
 
+**`sudo userdel kalkah`**
 
+<img width="821" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/7f4da131-eb85-43f6-bf8f-49f084adbb6f">
 
+apt-get is a command line tool for handling Advance Package Tool (APT) libraries in Linux. It require sudo or root privileges. E.g. sudo apt-get update synchronizez the package files from their sources, sudo apt-get upgrade installs the latest version of all installed packages.
 
+**`sudo apt-get upgrade`**
 
+<img width="926" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/f16f68e5-5ad8-41fd-b69f-e80be95ddf85">
 
+**`sudo apt-get update`**
+
+<img width="491" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/2ce93710-f8fb-4d87-9845-0fb963659192">
+
+Linux allows users to edit and manage files via a text editor, such as nano, vi, or jed. nano and vi come with the operating system, while jed has to be installed.
+
+Nano is a user-friendly, simple and WYSIWYG(What You See Is What You Get) text editor, which improves the features and user-friendliness of UW Pico text editor. Unlike vim editor or any other command-line editor, it doesn’t have any mode. It has an easy GUI(Graphical User Interface) which allows users to interact directly with the text in spite of switching between the modes as in vim editor.
+
+**`nano new_filename`** command will creare a new file called new_filename
+
+<img width="795" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/47b5c4aa-cc1a-4f97-9578-47178749fbac">
+
+vi uses two operating modes to work – insert and command. insert is used to edit and create a text file. On the other hand, the command performs operations, such as saving, opening, copying, and pasting a file.
+
+**`vi new_filename`**
