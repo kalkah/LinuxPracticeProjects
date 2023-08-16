@@ -292,7 +292,6 @@ The htop command is an interactive program that monitors system resources and se
 
 **`htop`**
 
-<img width="923" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/cbe4f56c-0630-435c-b971-001525049ec1">
 
 The process status or ps command produces a snapshot of all running processes in your system. The static results are taken from the virtual files in the /proc file system.
 
