@@ -111,8 +111,9 @@ The commad **`mv file1.txt file10.txt`** is used to rename file1.txt. The output
 
 <img width="448" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/bd361fc2-356b-4ec0-9050-4b266e600790">
 
-**`locate -i school*note`** command is used to seacrh the database for any file that contain the school or note, the flag -i is used so that the search will not be case sensitive. The output is hown below
+**`locate -i school`** command is used to seacrh the database for any file that contain the school, the flag -i is used so that the search will not be case sensitive.
 
+<img width="392" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/e5ab18cc-e036-4b1f-bd01-c513b0f02c11">
 
 
 **`find /home -name DevOps`** command was used to find a file named DevOps in the home directory. The output is shown below
@@ -283,12 +284,18 @@ The unalias command deletes an existing alias.
 The switch user or su command allows you to run a program as a different user. It changes the administrative account in the current log-in session.
 When executed without any option or argument, the su command runs through root privileges.
 
+**`su`**
+
 <img width="271" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/f79a7a12-3d11-425f-9061-e7e62b0d92ef">
 
 The htop command is an interactive program that monitors system resources and server processes in real time.
 
-<img width="389" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/1bac6be7-a64d-4b36-8ff2-c525665a9ae0">
+**`htop`**
+
+<img width="923" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/cbe4f56c-0630-435c-b971-001525049ec1">
 
 The process status or ps command produces a snapshot of all running processes in your system. The static results are taken from the virtual files in the /proc file system.
+
+**`ps`**
 
 <img width="326" alt="image" src="https://github.com/kalkah/LinuxPracticeProjects/assets/95209274/0f04f610-8625-4a06-abb6-9cdb20c1bfe3">
