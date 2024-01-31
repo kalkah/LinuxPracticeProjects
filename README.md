@@ -6,7 +6,7 @@
 
 After launching the ubuntu virtual machine the following command was run:
 
-**`sudo apt upgrade`** Always do update your server the first you login.
+**`sudo apt upgrade`** 
 
 Below is the output of the command above
 
